@@ -5,3 +5,4 @@ Kodluyoruz Eğitimi kapsamında açtığım ilk repo
 
 
 [](https://github.com/busekarakas/Kodluyoruzilkrepo.git)
+[Yazı içi linkiyim](https://www.google.com)
