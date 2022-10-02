@@ -5,5 +5,4 @@ Kodluyoruz Eğitimi kapsamında açtığım ilk repo
 [Buraya sizin reponuzdan aldığınız link gelecek](https://github.com/busekarakas/Kodluyoruzilkrepo.git)
 
 
-[](https://github.com/busekarakas/Kodluyoruzilkrepo.git)
-[id]: http://example.com/
+
