@@ -7,6 +7,7 @@ Kodluyoruz Eğitimi kapsamında açtığım ilk repo
 Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 
 Linux için:
-<a name="link_ismi"></a>
+(cd kodluyoruzilkrepo
+code .)
 
 
