@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NotOrtalamaHesaplama {
 
 	public static void main(String[] args) {
-		
+		// If else kullanmadan not ortalma hesaplamasÄ±
 		int matematik,fizik,kimya,turkce,tarih,muzik;
 		double ort;
 		
@@ -17,19 +17,19 @@ public class NotOrtalamaHesaplama {
 		System.out.println("Kimya notunuzu girin:");
 		kimya=input.nextInt();
 		
-		System.out.println("Türkçe notunuzu girin:");
+		System.out.println("TÃ¼rkÃ§e notunuzu girin:");
 		turkce=input.nextInt();
 		
 		System.out.println("Tarih notunuzu girin:");
 		tarih=input.nextInt();
 		
-		System.out.println("Müzik notunuzu girin:");
+		System.out.println("MÃ¼zik notunuzu girin:");
 		muzik=input.nextInt();
 		
 		ort=((matematik+fizik+kimya+turkce+tarih+muzik)/6.0);
 		System.out.println("Ortalama:"+ort);
 		
-		String cikti=(ort<60)? "Kaldý" : "Geçti";
+		String cikti=(ort<60)? "KaldÃ½" : "GeÃ§ti";
 		System.out.println(cikti);
 	}
 
