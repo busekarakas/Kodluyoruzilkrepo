@@ -1,5 +1,6 @@
 # Kodluyoruzilkrepo
 Kodluyoruz Eğitimi kapsamında açtığım ilk repo
+İçinde java eğitimde yaptığım kodlar mevcut
 ![resim](https://imgyukle.com/f/2022/10/02/n3hxxH.png)
 
 ## Installation
