@@ -6,10 +6,10 @@ public class ArmstrongNumber {
 
 	public static void main(String[] args) {
 		Scanner inp = new Scanner(System.in);
-		System.out.println("Sayıyı girin:");
+		System.out.println("SayÃ½yÃ½ girin:");
 
 		int number = inp.nextInt();
-		;
+		
 		int tempnumber = number;
 		int i = 0, s, exp = 1, result = 0;
 
