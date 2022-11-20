@@ -5,28 +5,20 @@ import java.util.Scanner;
 public class MinMax {
 
 	public static void main(String[] args) {
-		// klavyeden girilen N tane sayma sayısından en büyük ve en küçük sayıları bulan
-		// ve bu sayıları ekrana yazan program
-		int min = 0, max = 0, temp = 0, temp1 = 0;
+		// klavyeden girilen N tane sayma sayÃ½sÃ½ndan en bÃ¼yÃ¼k ve en kÃ¼Ã§Ã¼k sayÃ½larÃ½ bulan
+		// ve bu sayÃ½larÃ½ ekrana yazan program
+		int min = 0, max = 0, temp = 0;
 		int count;
 
 		Scanner inp = new Scanner(System.in);
-		System.out.println("Kaç tane sayı gireceksiniz:");
+		System.out.println("KaÃ§ tane sayÃ½ gireceksiniz:");
 		count = inp.nextInt();
 
 		for (int i = 1; i <= count; i++) {
-			System.out.println("Sayıyı girin:");
+			System.out.println("SayÄ±yÄ± girin:");
 			if (i == 1) {
-				temp1 = inp.nextInt();
-			} else if (i == 2) {
-				temp = inp.nextInt();
-				if (temp1 < temp) {
-					min = temp1;
-					max = temp;
-				} else if (temp1 > temp) {
-					min = temp;
-					max = temp1;
-				}
+				min = inp.nextInt();
+				max = min;
 			} else {
 				temp = inp.nextInt();
 				if (temp < min) {
@@ -36,9 +28,10 @@ public class MinMax {
 					max = temp;
 				}
 			}
+
 		}
-		System.out.println("En küçük sayı:" + min);
-		System.out.println("En büyük sayı:" + max);
+		System.out.println("En kÃ¼Ã§Ã¼k sayÃ½:" + min);
+		System.out.println("En bÃ¼yÃ¼k sayÃ½:" + max);
 	}
 
 }
